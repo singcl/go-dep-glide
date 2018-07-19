@@ -1,4 +1,4 @@
-package: foordep
+package: go-dep-glide
 import:
 - package: github.com/astaxie/beego
   version: ^1.9.2

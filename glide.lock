@@ -1,5 +1,5 @@
-hash: 7fe2891e1d12f5f0ad87230afccdcaa3a88ce6ee3d24be23c601fcf2c8b8ff6d
-updated: 2018-07-19T11:52:43.1848+08:00
+hash: 4d67e3e4800bc2072c57804af8916b81dc460cfaa6885302394cb70e76fa7cf6
+updated: 2018-07-19T13:47:08.5608+08:00
 imports:
 - name: github.com/astaxie/beego
   version: bf5c5626ab429e66d88602e1ab1ab5fbf4629a01
