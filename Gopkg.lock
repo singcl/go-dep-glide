@@ -2,6 +2,14 @@
 
 
 [[projects]]
+  digest = "1:282acb7fe0ca456de4ea5c3174c2691a2bd74008462e966b69094ad0b2c23e6e"
+  name = "github.com/BurntSushi/toml"
+  packages = ["."]
+  pruneopts = "UT"
+  revision = "b26d9c308763d68093482582cea63d69be07a0f0"
+  version = "v0.3.0"
+
+[[projects]]
   digest = "1:e8c70d9eb45b69fec3c137c9b8c0067c6a3f83a6a9b5ef9a0491a3223a92288b"
   name = "github.com/astaxie/beego"
   packages = [
@@ -31,6 +39,7 @@
   analyzer-name = "dep"
   analyzer-version = 1
   input-imports = [
+    "github.com/BurntSushi/toml",
     "github.com/astaxie/beego",
     "github.com/bitly/go-simplejson",
   ]
