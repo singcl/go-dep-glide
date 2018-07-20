@@ -1,5 +1,5 @@
-hash: 4d67e3e4800bc2072c57804af8916b81dc460cfaa6885302394cb70e76fa7cf6
-updated: 2018-07-19T13:47:08.5608+08:00
+hash: b63dd111d636703106b7dfb3a4a2c7a7bece9ee5d7b6e49fa20d1de1a89f4890
+updated: 2018-07-20T10:11:21.8117+08:00
 imports:
 - name: github.com/astaxie/beego
   version: bf5c5626ab429e66d88602e1ab1ab5fbf4629a01
@@ -14,4 +14,6 @@ imports:
   - utils
 - name: github.com/bitly/go-simplejson
   version: aabad6e819789e569bd6aabf444c935aa9ba1e44
+- name: github.com/BurntSushi/toml
+  version: a368813c5e648fee92e5f6c30e3944ff9d5e8895
 testImports: []

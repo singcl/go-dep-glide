@@ -24,6 +24,8 @@
 #   go-tests = true
 #   unused-packages = true
 
+# Array of Tables
+# https://github.com/toml-lang/toml
 
 [[constraint]]
   name = "github.com/astaxie/beego"
@@ -32,6 +34,8 @@
 [[constraint]]
   name = "github.com/bitly/go-simplejson"
   version = "0.5.0"
+[[constraint]]
+  name = "github.com/BurntSushi/toml"
 
 [prune]
   go-tests = true
