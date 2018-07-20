@@ -6,7 +6,7 @@ type ownerInfo struct {
 	Name string
 	Bio  string
 	DOB  time.Time
-	Org  string `toml: "database"`
+	Org  string `toml:"organization"`
 }
 
 type database struct {
