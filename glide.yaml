@@ -1,8 +1,12 @@
-package: go-dep-glide
+package: singcl/go-dep-slide
 import:
-- package: github.com/astaxie/beego
-  version: ^1.9.2
-- package: github.com/bitly/go-simplejson
-  version: ^0.5.0
 - package: github.com/BurntSushi/toml
-  version: ^0.3.0
+  version: ~0.3.0
+- package: github.com/astaxie/beego
+  version: ~1.10.0
+- package: github.com/bitly/go-simplejson
+  version: ~0.5.0
+- package: github.com/singcl/go-dep-slide
+  subpackages:
+  - config
+- package: golang.org/x/crypto

@@ -1,0 +1,30 @@
+hash: fc6bed1d3ffb5a89266f1c42b0c809f92074ddcd0a3c18efe38ee20f24079ee3
+updated: 2018-07-22T20:46:03.9701999+08:00
+imports:
+- name: github.com/astaxie/beego
+  version: a09bafbf2ab483742b17bb352f95dbc0a597e720
+  subpackages:
+  - config
+  - context
+  - context/param
+  - grace
+  - logs
+  - session
+  - toolbox
+  - utils
+- name: github.com/bitly/go-simplejson
+  version: aabad6e819789e569bd6aabf444c935aa9ba1e44
+- name: github.com/BurntSushi/toml
+  version: b26d9c308763d68093482582cea63d69be07a0f0
+- name: github.com/singcl/go-dep-slide
+  version: 59c9a13ea2d804317b8baa4efabc36ba4f46b598
+  subpackages:
+  - config
+- name: golang.org/x/crypto
+  version: a2144134853fc9a27a7b1e3eb4f19f1a76df13c9
+  subpackages:
+  - acme
+  - acme/autocert
+- name: gopkg.in/yaml.v2
+  version: 5420a8b6744d3b0345ab293f6fcba19c978f1183
+testImports: []
