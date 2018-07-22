@@ -1,4 +1,17 @@
 package: singcl/go-dep-slide
+homepage: https://github.com/singcl
+lincense: MIT
+owners:
+- name: singcl
+  email: 24661881@qq.com
+# 去除包
+ignore:
+- golang.org/x/net
+# 排除目录
+excludeDirs:
+- node_moudles
+- .idea
+# 导入包
 import:
 - package: github.com/BurntSushi/toml
   version: ~0.3.0
@@ -10,3 +23,8 @@ import:
   subpackages:
   - config
 - package: golang.org/x/crypto
+# 导入测试包
+testImport:
+- package: github.com/smartystreets/goconvey
+  subpackages:
+  - convey
