@@ -23,3 +23,18 @@ https://studygolang.com/articles/10523
 3.  `glide up`
 
 在~/.glide/mirrors.yaml 中保存了我们设置的所以镜像资源。可以直接查看或者修改。
+
+## Install
+
+```sh
+# 第一步拉取项目：
+go get -u github.com/singcl/go-dep-glide
+
+# 第二步安装依赖:
+glide up
+# 或者
+dep ensure
+
+# 第三步成功：
+OK
+```
