@@ -26,9 +26,18 @@ https://studygolang.com/articles/10523
 
 ## Install
 
+#### 方法一：
+
 ```sh
-# 第一步拉取项目：
+# 如果失败请自己去github下载镜像：https://blog.csdn.net/AlexWoo0501/article/details/73409917
 go get -u github.com/singcl/go-dep-glide
+```
+
+#### 方法二：
+
+```sh
+# 第一步：
+git clone https://github.com/singcl/go-dep-glide.git
 
 # 第二步安装依赖:
 glide up
