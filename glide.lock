@@ -1,5 +1,5 @@
 hash: 6933da76b539c29361a46afcf514a0ab7afd23e8dd4934ccb5c26a76afc01c67
-updated: 2018-07-22T21:28:32.5434722+08:00
+updated: 2018-07-23T09:44:30.034+08:00
 imports:
 - name: github.com/astaxie/beego
   version: a09bafbf2ab483742b17bb352f95dbc0a597e720
@@ -17,7 +17,7 @@ imports:
 - name: github.com/BurntSushi/toml
   version: b26d9c308763d68093482582cea63d69be07a0f0
 - name: github.com/singcl/go-dep-slide
-  version: 885181d8964601b8b4f23e006d3714c435e44a9e
+  version: 1b69cf10aba59d86ca3283dc8a8ed151fff89316
   subpackages:
   - config
 - name: golang.org/x/crypto
