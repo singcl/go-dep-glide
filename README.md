@@ -19,5 +19,7 @@ https://studygolang.com/articles/10523
 ### 基本思路：
 
 1.  在 glide.yaml 中添加 package`- package: golang.org/x/crypto`
-2.  设置镜像：`glide mirror set golang.org/x/crypto github.com/golang/crypto`
+2.  设置镜像：`glide mirror set https://golang.org/x/crypto https://github.com/golang/crypto --vcs git`
 3.  `glide up`
+
+在~/.glide/mirrors.yaml 中保存了我们设置的所以镜像资源。可以直接查看或者修改。
