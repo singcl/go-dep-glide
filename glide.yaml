@@ -1,4 +1,4 @@
-package: singcl/go-dep-slide
+package: singcl/go-dep-glide
 homepage: https://github.com/singcl
 lincense: MIT
 owners:
@@ -19,7 +19,7 @@ import:
   version: ~1.10.0
 - package: github.com/bitly/go-simplejson
   version: ~0.5.0
-- package: github.com/singcl/go-dep-slide
+- package: github.com/singcl/go-dep-glide
   subpackages:
   - config
 - package: golang.org/x/crypto

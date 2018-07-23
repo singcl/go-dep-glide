@@ -39,7 +39,7 @@
 
 [[constraint]]
   branch = "master"
-  name = "github.com/singcl/go-dep-slide"
+  name = "github.com/singcl/go-dep-glide"
 
 [prune]
   go-tests = true

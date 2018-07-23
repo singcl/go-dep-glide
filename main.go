@@ -7,7 +7,7 @@ import (
 	"github.com/BurntSushi/toml"
 	"github.com/astaxie/beego"
 	simplejson "github.com/bitly/go-simplejson"
-	"github.com/singcl/go-dep-slide/config"
+	"github.com/singcl/go-dep-glide/config"
 )
 
 func main() {

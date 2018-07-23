@@ -38,7 +38,7 @@
 [[projects]]
   branch = "master"
   digest = "1:ca2fec13aeeab1fbf2a206f969e6a4151da955389984f70b1ed9cdfeb80e9422"
-  name = "github.com/singcl/go-dep-slide"
+  name = "github.com/singcl/go-dep-glide"
   packages = ["config"]
   pruneopts = "UT"
   revision = "1b69cf10aba59d86ca3283dc8a8ed151fff89316"
@@ -50,7 +50,7 @@
     "github.com/BurntSushi/toml",
     "github.com/astaxie/beego",
     "github.com/bitly/go-simplejson",
-    "github.com/singcl/go-dep-slide/config",
+    "github.com/singcl/go-dep-glide/config",
   ]
   solver-name = "gps-cdcl"
   solver-version = 1
