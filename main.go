@@ -49,8 +49,8 @@ func generateQrcode() {
 	if err != nil {
 		log.Fatal(err)
 	} else {
-		qr.BackgroundColor = color.RGBA{50, 205, 50, 255 }
-		qr.ForegroundColor = color.White
+		qr.BackgroundColor = color.White
+		qr.ForegroundColor = color.RGBA{255,87, 34, 255 }
 		qr.WriteFile(256, "./baidu.png")
 	}
 }
